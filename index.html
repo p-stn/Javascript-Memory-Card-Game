@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory-Card Game</title>
+    <link rel="stylesheet" href="css/dist/master.css">
+    <link rel="shortcut icon" href="img/me.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="w-full h-full  bg-black hidden lg:flex fixed" id="particle"></div>
+    <div class="w-full h-full  bg-[#060911]  fixed lg:hidden flex  "></div>
+    <div class="w-full ">
+        <div class="container mx-auto flex justify-center items-center ">
+            <div class="win w-[300px] lg:w-[700px] h-[200px] backdrop-blur-[30px] hidden  absolute  z-50 justify-center items-center">
+                <h3 class="text-[35px] lg:text-[90px] text-white">Yes You Win </h3>
+                <img class=" w-[60px] h-[60px] lg:w-[140px] lg:h-[140px]  p-[3px]" src="img/win.png"  alt="">
+            </div>
+            <h1 class="fixed bottom-0 left-0 hidden lg:flex z-50 text-white">By Pooya Saadatian 🤙</h1>
+            
+
+
+            <div
+                class="main box w-[85%] mx-auto h-[100vh]  flex   relative  ">
+                
+                <div class="   w-full flex flex-col justify-evenly items-center">
+
+                    <!-- Add to One div -->
+                    <div>
+                        <h1 class="tim text-[30px] backdrop-blur-[10px]  lg:text-[50px] px-[20px] text-center text-white">
+                            <span class="M ">00 :</span>
+                            <span class="S">00</span>
+                            <span class="T"> : 00</span>
+                        </h1>
+                    </div>
+                    <ul class="ly w-full h-auto   flex flex-wrap justify-center items-center "></ul>
+                    <div class="">
+                        <!-- <button class="text-[30px] m-[3px] bg-slate-500">settings</button> -->
+                        <button class="playag text-[30px] p-[15px] m-[3px] bg-black lg:bg-transparent lg:border  backdrop-blur-[10px] text-white">Play again</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

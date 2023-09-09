@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ts3d{
+    transform-style: preserve-3d;
+}
+.lst {
+    /* background-color: aquamarine; */
+    pointer-events: none;  
+    transform: translateZ(-1px)scaleX(-1) ;
+}
